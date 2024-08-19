@@ -1,0 +1,12 @@
+.product-list {
+    padding: 20px;
+}
+
+
+.pagination-container {
+    display: flex;
+    justify-content: center;
+    /* Căn giữa phân trang */
+    margin-top: 20px;
+    /* Thêm khoảng cách trên phân trang */
+}

@@ -1,0 +1,47 @@
+.login-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* Chiếm toàn bộ chiều cao màn hình */
+    background-color: #f0f2f5;
+    /* Màu nền nhẹ */
+}
+
+.login-form {
+    max-width: 400px;
+    /* Chiều rộng tối đa của form */
+    width: 100%;
+    padding: 20px;
+    background: #fff;
+    /* Màu nền của form */
+    border-radius: 8px;
+    /* Bo tròn góc */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Đổ bóng nhẹ */
+}
+
+.login-form h2 {
+    text-align: center;
+    /* Căn giữa tiêu đề */
+    margin-bottom: 20px;
+    /* Khoảng cách dưới tiêu đề */
+}
+
+.login-form .login-form-forgot {
+    float: right;
+    /* Đẩy liên kết quên mật khẩu sang bên phải */
+}
+
+.switch-form {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.switch-form a {
+    text-decoration: none;
+    color: #1890ff;
+    /* Màu liên kết Ant Design */
+    font-weight: bold;
+}

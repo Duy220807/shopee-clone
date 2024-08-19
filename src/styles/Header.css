@@ -1,0 +1,50 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.logo a {
+    text-decoration: none;
+    /* Loại bỏ gạch chân khỏi liên kết */
+    color: #000;
+    /* Đặt màu chữ cho liên kết */
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+
+.auth-links {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.auth-links a {
+    text-decoration: none;
+    /* Loại bỏ gạch chân khỏi liên kết */
+}
+
+.cart {
+    display: flex;
+    align-items: center;
+}
+
+.cart-link {
+    display: flex;
+    align-items: center;
+}
+
+.cart-icon {
+    font-size: 24px;
+}

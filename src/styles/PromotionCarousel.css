@@ -1,0 +1,9 @@
+.carousel-slide {
+    margin-bottom: 20px;
+}
+
+.carousel-slide img {
+    width: 100%;
+    height: auto;
+    display: block;
+}

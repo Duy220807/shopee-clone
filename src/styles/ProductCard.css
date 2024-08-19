@@ -1,0 +1,9 @@
+.product-card img {
+    width: 100%;
+    height: auto;
+    /* Đảm bảo tỷ lệ khung hình của hình ảnh */
+}
+
+.product-card {
+    cursor: pointer;
+}

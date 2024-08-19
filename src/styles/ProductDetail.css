@@ -1,0 +1,37 @@
+.product-detail {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.product-image-card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.product-info-card {
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product-info-card .ant-card-meta-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.product-info-card .ant-card-meta-description {
+    font-size: 20px;
+    color: #1890ff;
+}
+
+.product-info-card p {
+    margin: 20px 0;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.product-info-card .ant-btn-primary {
+    margin-top: 20px;
+    width: 100%;
+}
